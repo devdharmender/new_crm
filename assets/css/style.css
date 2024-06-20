@@ -1,0 +1,415 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Common CSS */
+input[type="checkbox"] {
+    cursor: pointer;
+    height: 2.8vw;
+    width: 1.8vw;
+   
+}
+
+
+/* Top Head Section Styling */
+.top-head {
+    width: 100%;
+}
+
+.top-head .img {
+    width: 40vw;
+}
+
+.top-head .content .display-6 {
+    font-size: 2.5vw;
+    margin-left: .7vw !important;
+    font-weight: 700;
+}
+
+.city-name {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+
+input[type="radio"] {
+    border: none;
+    opacity: 1;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+}
+
+/* Horizental Line Section Styling */
+.h-line {
+    width: 100%;
+    border: 0.1vw solid #111 !important;
+    opacity: 1;
+    margin: 1vw 0vw;
+}
+
+/* User Details Section Styling */
+.details-feild {
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.form-control {
+    padding: 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: none !important;
+}
+
+/* Parts Picker Section Styling */
+.parts-picked {
+    margin-top: 3vh;
+    border: .3vw solid black;
+    /* height: 20vh; */
+    border-radius: 5px;
+    padding: 1vw;
+}
+
+.parts-picked-heading {
+    margin-bottom: .8vw;
+    font-size: 3vw;
+    font-weight: 600;
+    color: black;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    height: 2.8vw;
+    width: 1.8vw;
+}
+
+.part-name {
+    font-size: 1.5vw;
+    margin: .5vw 0px !important;
+}
+
+
+
+/* Laptop Details Section Styling */
+.laptop-detail {
+    margin: 1.5px;
+    margin-top: 2vw;
+}
+
+
+
+.reported-problem span {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+/* Laptop Image Section Styling*/
+#file-input{
+    background: #0292c9;
+    color: #fff;
+    width: 200px;
+}
+
+.laptop-image {
+    margin-top: 3vw;
+}
+
+.laptop-image .image-row {
+    margin: 3vw 0vw;
+}
+
+.laptop-image .declaration-row {
+    margin: 3vw 0vw;
+}
+
+.laptop-image .declaration-row span {
+    font-size: 2vw;
+}
+
+.laptop-image .declaration-row h6 {
+    font-size: 1.7vw;
+    line-height: 2.5vw;
+}
+
+.laptop-image .signature-row {
+    margin: 3vw 0vw;
+}
+
+.laptop-image .signature-row input {
+    /* padding: 1.5vw 0vw; */
+    font-size: 2vw;
+}
+
+.laptop-image .signature-row .sign-text {
+    margin: 1.5vw 0vw;
+    font-size: 2vw;
+}
+
+.company-address h4 {
+    font-size: 2.1vw;
+    color: black;
+}
+
+.company-address h4 a {
+    font-size: 2.2vw;
+    color: black;
+}
+
+.contact-way a {
+    font-size: 1.5vw;
+    color: black;
+}
+
+.contact-way i {
+    font-size: 1.5vw;
+    background-color: hwb(28deg 10% 3%);
+    padding: .2vw;
+    width: 2.3vw;
+    height: 2.3vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+}
+#status_div{
+    display:none;
+}
+/* /////////////////// ######## ///////////////// */
+/* ///////////////// ############ /////////////// */
+/* /////////////////// ######## ///////////////// */
+
+@media screen and (max-width: 992px) {
+
+    /* Top Head Section Styling */
+    .city-name {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 0px;
+    }
+
+    input[type="radio"] {
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+    }
+
+    /* Parts Picker Section Styling */
+    input[type="checkbox"] {
+        /*border: none;*/
+        /*opacity: 1;*/
+        cursor: pointer;
+        height: 25px;
+        width: 22px;
+    }
+
+    .part-name {
+        font-size: 14px;
+        margin: .5vw 0px !important;
+    }
+}
+
+/* /////////////////// ######## ///////////////// */
+/* ///////////////// ############ /////////////// */
+/* /////////////////// ######## ///////////////// */
+
+@media screen and (max-width: 768px) {
+
+    /* Top Head Section Styling */
+    .top-head .img {
+        width: 60vw;
+    }
+
+    .top-head .content .display-6 {
+        font-size: 4vw;
+        margin-left: .7vw !important;
+        font-weight: 700;
+    }
+
+    .city-name {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+
+    input[type="radio"] {
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+    }
+
+    /* Parts Picker Section Styling */
+    input[type="checkbox"] {
+        /*border: none;*/
+        /*opacity: 1;*/
+        cursor: pointer;
+        height: 30px;
+        width: 25px;
+    }
+
+    .part-name {
+        font-size: 17px;
+        margin: .5vw 0px !important;
+    }
+    .alert-success{
+        border: none;
+        text-align: center;
+    }
+
+}
+
+/* /////////////////// ######## ///////////////// */
+/* ///////////////// ############ /////////////// */
+/* /////////////////// ######## ///////////////// */
+@media screen and (max-width: 576px) {
+
+    /* Top Head Section Styling */
+    .top-head .img {
+        width: 60vw;
+    }
+
+    .top-head .content .display-6 {
+        font-size: 4vw;
+        margin-left: .7vw !important;
+        font-weight: 700;
+    }
+
+    .city-name {
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 0px;
+    }
+
+    input[type="radio"] {
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+        /*height: 12px;*/
+        width: 12px;
+    }
+    
+    .form-control {
+        padding: 0px;
+        border: none;
+        border-bottom: 1px solid gray;
+        outline: none;
+        border-radius: 0px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* Parts Picker Section Styling */
+    input[type="checkbox"] {
+        /*border: none;*/
+        /*opacity: 1;*/
+        cursor: pointer;
+        height: 16px;
+        width: 12px;
+    }
+
+    .part-name {
+        font-size: 9px;
+        margin: 0.5vw 0px !important;
+        padding-left: 5px;
+    }
+
+    .reported-problem span {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* User Details Section Styling */
+    .details-feild {
+        font-size: 13px;
+        line-height: 12px;
+        font-weight: 500;
+    }
+
+    /* Laptop Image Section Styling*/
+    .laptop-image {
+        margin-top: 3vw;
+    }
+
+    .laptop-image .image-row {
+        margin: 3vw 0vw;
+    }
+
+    .laptop-image .declaration-row {
+        margin: 3vw 0vw;
+    }
+
+    .laptop-image .declaration-row span {
+        font-size: 11px;
+    }
+
+    .laptop-image .declaration-row h6 {
+        font-size: 8px;
+    }
+
+    .laptop-image .signature-row {
+        margin: 3vw 0vw;
+    }
+
+    .laptop-image .signature-row input {
+        /* padding: 1.5vw 0vw; */
+        font-size: 2vw;
+    }
+
+    .laptop-image .signature-row .sign-text {
+        font-size: 9px;
+    }
+
+    .company-address h4 {
+        font-size: 9px;
+        color: black;
+    }
+
+    .company-address h4 a {
+        font-size: 9px;
+        color: black;
+    }
+
+    .contact-way a {
+        font-size: 1.5vw;
+        color: black;
+    }
+
+    .contact-way i {
+        font-size: 1.5vw;
+        background-color: hwb(28deg 10% 3%);
+        padding: .2vw;
+        width: 2.3vw;
+        height: 2.3vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        border-radius: 50%;
+    }
+    .alert-success{
+        border: none;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .alert-danger{
+        border: none;
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+
+
+canvas#signature {
+    border: 2px solid black;
+}
